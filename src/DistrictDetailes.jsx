@@ -4,15 +4,15 @@ import axios from "axios";
 
 export const DistrictDetailes = () => {
   const [userInput, setuserInput] = useState("");
-  // const [searchDist, setsearchDist] = useState({});
+  const [searchDist, setsearchDist] = useState({});
 
   const searchDistrict = () => {
     console.log(userInput);
     axios.get("http://localhost:3000/districts").then((res) => {
       console.log(res.data);
       let dist = res.data.find((d) => d.constituencies.indexOf(userInput) > -1);
-      console.log(dist)
-      // setsearchDist(dist);
+      console.log(dist);
+      setsearchDist(dist);
     });
   };
 
@@ -45,11 +45,11 @@ export const DistrictDetailes = () => {
               </button>
             </form>
           </div>
-          {/* {searchDist.districtName && (
+          {searchDist.districtName && (
             <div className="col">
               <h2>Your New District Name is : {searchDist.districtName}</h2>
             </div>
-          )} */}
+          )}
         </div>
       </div>
     </div>
