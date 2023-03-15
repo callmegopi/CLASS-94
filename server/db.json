@@ -1,0 +1,48 @@
+{
+  "users": [],
+  "districts": [
+    {
+      "districtName": "Srikakulam",
+      " constituencies": ["ichapuram", "somapeta", "tekkai"]
+    },
+    {
+      "districtName": "Vijayanagaram",
+      " constituencies": [
+        "PARVATHIPURAM",
+        "SALURUBOBBILI",
+        "THERLAM",
+        "CHEEPURUPALLI",
+        "GAJAPATHINAGARAM",
+        "VIZIANAGARAM",
+        "SATHIVADA",
+        "BHOGAPURAM",
+        "UTTARAPALLI",
+        "SRUNGAVARAPUKOTA"
+      ]
+    },
+    {
+      "districtName": "Manyam",
+      " constituencies": []
+    },
+    {
+      "districtName": "Alluri Sitharama Raju",
+      " constituencies": []
+    },
+    {
+      "districtName": "Vishakapatnam",
+      " constituencies": []
+    },
+    {
+      "districtName": "Anakapally",
+      " constituencies": []
+    },
+    {
+      "districtName": "Kakinada",
+      " constituencies": []
+    },
+    {
+      "districtName": "Kona sema",
+      " constituencies": []
+    }
+  ]
+}
